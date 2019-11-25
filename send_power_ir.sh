@@ -1,0 +1,1 @@
+eval 'ir-ctl --send=KEY_POWER.txt -d /dev/lirc0'
