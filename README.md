@@ -272,47 +272,47 @@ polling time, etc.
 References
 ==========
 
-[1]  RaspberryPi.org-Forums,  “[stretch/buster]  using  lirc  with  kernel  4.19.x  and  gpio-ir.”  [Online].Available:  https://www.raspberrypi.org/forums/viewtopic.php?f=28&t=235256
+**[1]**  RaspberryPi.org-Forums,  “[stretch/buster]  using  lirc  with  kernel  4.19.x  and  gpio-ir.”  [Online].Available:  https://www.raspberrypi.org/forums/viewtopic.php?f=28&t=235256
 
-[2]  SeanYoung,   “gpio-ir-tx.txt.”   [Online].   Available:https://github.com/torvalds/linux/blob/master/Documentation/devicetree/bindings/leds/irled/gpio-ir-tx.txt
+**[2]**  SeanYoung,   “gpio-ir-tx.txt.”   [Online].   Available:https://github.com/torvalds/linux/blob/master/Documentation/devicetree/bindings/leds/irled/gpio-ir-tx.txt
 
-[3]  SeanYoung.,   “pwm-ir-tx.txt.”  [Online].  Available:https://github.com/torvalds/linux/blob/master/Documentation/devicetree/bindings/leds/irled/pwm-ir-tx.txt
+**[3]**  SeanYoung.,   “pwm-ir-tx.txt.”  [Online].  Available:https://github.com/torvalds/linux/blob/master/Documentation/devicetree/bindings/leds/irled/pwm-ir-tx.txt
 
-[4]  irrecord-remotes   database,   “lirc-remotes.”   [Online].   Available:https://sourceforge.net/p/lirc-remotes/code/ci/master/tree/remotes/
+**[4]**  irrecord-remotes   database,   “lirc-remotes.”   [Online].   Available:https://sourceforge.net/p/lirc-remotes/code/ci/master/tree/remotes/
 
-[5]  Wikipedia,   “Edid.”   [Online].   Available:https://en.wikipedia.org/wiki/ExtendedDisplayIdentificationData
+**[5]**  Wikipedia,   “Edid.”   [Online].   Available:https://en.wikipedia.org/wiki/ExtendedDisplayIdentificationData
 
-[6]  RaspberryPi-userland,   “tvservice.c.”   [Online].   
+**[6]**  RaspberryPi-userland,   “tvservice.c.”   [Online].   
 Available:https://github.com/raspberrypi/userland/blob/master/hostapplications/linux/apps/tvservice/tvservice.c
 
-[7]  RaspberryPi-userland.,  “vcmailbox.c.”  [Online].  Available:    https://github.com/raspberrypi/userland/blob/master/hostapplications/linux/apps/vcmailbox/vcmailbox.c
+**[7]**  RaspberryPi-userland.,  “vcmailbox.c.”  [Online].  Available:    https://github.com/raspberrypi/userland/blob/master/hostapplications/linux/apps/vcmailbox/vcmailbox.c
 
-[8]  R.  firmware  wiki,   “Mailboxes  wiki.”  [Online].  Available:    https://github.com/raspberrypi/firmware/wiki/Mailboxes
+**[8]**  R.  firmware  wiki,   “Mailboxes  wiki.”  [Online].  Available:    https://github.com/raspberrypi/firmware/wiki/Mailboxes
 
-[9]  AndrewFromMelbourne,    “serialnummailbox.c.”   [Online].   Available:https://github.com/AndrewFromMelbourne/raspiserialnumber/blob/master/serialnumbermailbox.c
+**[9]**  AndrewFromMelbourne,    “serialnummailbox.c.”   [Online].   Available:https://github.com/AndrewFromMelbourne/raspiserialnumber/blob/master/serialnumbermailbox.c
 
-[10]  R.   firmware   wiki,    “Mailbox   property   interface   -   edid.”   [Online].   Available:https://github.com/raspberrypi/firmware/wiki/Mailbox-property-interface#get-edid-block
+**[10]**  R.   firmware   wiki,    “Mailbox   property   interface   -   edid.”   [Online].   Available:https://github.com/raspberrypi/firmware/wiki/Mailbox-property-interface#get-edid-block
 
-[11]  RaspberryPi-documentation,“Mailboxusage.”[Online].Available:https://github.com/raspberrypi/documentation/tree/JamesH65-mailboxdocs/configuration/mailboxes#using-the-mailboxes-from-kernel-modules
+**[11]**  RaspberryPi-documentation,“Mailboxusage.”[Online].Available:https://github.com/raspberrypi/documentation/tree/JamesH65-mailboxdocs/configuration/mailboxes#using-the-mailboxes-from-kernel-modules
 
-[12]  elixir  bootlin,   “mailbox-controller.h.”  [Online].  Available:    https://elixir.bootlin.com/linux/latest/source/include/linux/mailboxcontroller.h#L117
+**[12]**  elixir  bootlin,   “mailbox-controller.h.”  [Online].  Available:    https://elixir.bootlin.com/linux/latest/source/include/linux/mailboxcontroller.h#L117
 
-[13]  elixir  bootlin.,   “raspberrypi.c.”  [Online].  Available:    https://elixir.bootlin.com/linux/latest/source/drivers/firmware/raspberrypi.c#L145
+**[13]**  elixir  bootlin.,   “raspberrypi.c.”  [Online].  Available:    https://elixir.bootlin.com/linux/latest/source/drivers/firmware/raspberrypi.c#L145
 
-[14]  elixir bootlin,  “mailbox.c.” [Online]. Available:  https://elixir.bootlin.com/linux/latest/source/drivers/mailbox/mailbox.c#L53
+**[14]**  elixir bootlin,  “mailbox.c.” [Online]. Available:  https://elixir.bootlin.com/linux/latest/source/drivers/mailbox/mailbox.c#L53
 
-[15]  ——,  “kobjectuevent.c.”  [Online].  Available:   https://elixir.bootlin.com/linux/latest/source/lib/kobjectuevent.c#L456
+**[15]**  ——,  “kobjectuevent.c.”  [Online].  Available:   https://elixir.bootlin.com/linux/latest/source/lib/kobjectuevent.c#L456
 
-[16]  Cesati  and  Bovet,  “Ldd-3-workqueues.”  [Online].  Available:  https://www.oreilly.com/library/view/understanding-the-linux/0596005652/ch04s08.html
+**[16]**  Cesati  and  Bovet,  “Ldd-3-workqueues.”  [Online].  Available:  https://www.oreilly.com/library/view/understanding-the-linux/0596005652/ch04s08.html
 
-[17]  VESA,  “Edid  standard.”  [Online].  Available:http://read.pudn.com/downloads110/ebook/456020/E-EDID%20Standard.pdf
+**[17]**  VESA,  “Edid  standard.”  [Online].  Available:http://read.pudn.com/downloads110/ebook/456020/E-EDID%20Standard.pdf
 
-[18]  Miseli,  “Xorg  -  edid.”  [Online].  Available:   https://www.x.org/wiki/Events/XDC2007/Notes/Xorg2007-EDID-JMiseli.pdf
+**[18]**  Miseli,  “Xorg  -  edid.”  [Online].  Available:   https://www.x.org/wiki/Events/XDC2007/Notes/Xorg2007-EDID-JMiseli.pdf
 
-[19]  RaspberryPi-Forum,   “Detecting   if   hdmi   is   present.”   [Online].   Available:https://www.raspberrypi.org/forums/viewtopic.php?t=18292#p933055
+**[19]**  RaspberryPi-Forum,   “Detecting   if   hdmi   is   present.”   [Online].   Available:https://www.raspberrypi.org/forums/viewtopic.php?t=18292#p933055
 
-[20]  RaspberryPi,  “Schematic  raspi  2b.”  [Online].  Available:   https://www.raspberrypi.org/app/uploads/2012/04/Raspberry-Pi-Schematics-R1.0.pdf
+**[20]**  RaspberryPi,  “Schematic  raspi  2b.”  [Online].  Available:   https://www.raspberrypi.org/app/uploads/2012/04/Raspberry-Pi-Schematics-R1.0.pdf
 
-[21]  datapro.net,  “Hpd,  ddc  and  edid.”  [Online].  Available:   https://www.datapro.net/techinfo/hotplugdetection.html10
+**[21]**  datapro.net,  “Hpd,  ddc  and  edid.”  [Online].  Available:   https://www.datapro.net/techinfo/hotplugdetection.html10
 
 
