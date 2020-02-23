@@ -63,16 +63,14 @@ void get_hdmi_status(struct work_struct *ws)
 {	
 	int status = gpio_get_value(GPIO_HDP_PIN);
 
-	if(status == 0) // HDMI connected
-    { 
-		if(prev_state == 1) // HDMI just plugged in
-            pr_info("HDMI attached\n");
+	if(status == 0) { // HDMI connected
+		if(prev_state == 1) { // HDMI just plugged in
+            		pr_info("HDMI attached\n");
 			prev_state = 0;
+		}
 	} 
-    else // HDMI disconnected
-    { 
-		if(prev_state == 0)  // HDMI just unplugged
-        {
+    	else { // HDMI disconnected
+		if(prev_state == 0) { // HDMI just unplugged-
 			kobject_uevent_env(&(hdmi_dev.this_device->kobj), KOBJ_CHANGE, env_event);
 			pr_info("HDMI removed\n");
 			prev_state = 1;
@@ -115,7 +113,7 @@ static int __init hdmi_init(void)
 	if (ret)
 		pr_err("error %d\n", ret);
 
-    timer_init_func();
+    	timer_init_func();
 
 	return ret;
 }
@@ -124,8 +122,8 @@ static void __exit hdmi_exit(void)
 {
 	pr_info("unloading ... \n");
 	
-    kfree(hdmi_work);
-    timer_exit_func();
+    	kfree(hdmi_work);
+    	timer_exit_func();
 	flush_workqueue(wq);
 	destroy_workqueue(wq);
 	misc_deregister(&hdmi_dev);
