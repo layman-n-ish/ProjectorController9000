@@ -4,11 +4,11 @@
 
 ifneq ($(KERNELRELEASE),)
 
-obj-m := hdmi-dev-v2.o
+obj-m := src/hdmi-dev-w-gpio.o
 
 else
 KDIR  := /lib/modules/$(shell uname -r)/build
-PWD   := $(shell pwd)
+PWD   := $(shell pwd)/src
 
 default:
 	make -C $(KDIR) M=$(PWD) modules
@@ -23,11 +23,11 @@ clean:
 # ${@D} = /run/udev/rules.d
 # $? -> exit status of the last command 
 
-loadit: hdmi-dev-v2.ko
-	insmod hdmi-dev-v2.ko
+loadit: src/hdmi-dev-w-gpio.ko
+	insmod src/hdmi-dev-w-gpio.ko
 
 unloadit:
-	-rmmod hdmi-dev-v2
+	-rmmod src/hdmi-dev-w-gpio
 
 .PHONY: loadit unloadit
 
